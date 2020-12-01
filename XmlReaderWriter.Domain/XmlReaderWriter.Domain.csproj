@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;NAME_LIST_IS_JSON SAMPLE_LIST_IS_XML UPDATE_DATA_IS_XML</DefineConstants>
+  </PropertyGroup>
+
+</Project>
